@@ -91,13 +91,10 @@ CREATE TABLE IF NOT EXISTS appointments (
 
 -- ============================================================
 -- SAMPLE DATA
--- All passwords are bcrypt hash of: $barber@dbs
 -- ============================================================
 
 INSERT INTO users (username, name, email, password, phone, role) VALUES
-  ('admin',    'System Admin', 'admin@barber.com',   '$2b$10$JHLIOrxmGLzFm12.YtLBuemSroF3g2LN9NcAswnZhWxqoIacH64s.', '0851234567', 'admin'),
-  ('johndoe',  'John Doe',     'john@example.com',   '$2b$10$JHLIOrxmGLzFm12.YtLBuemSroF3g2LN9NcAswnZhWxqoIacH64s.', '0851234568', 'customer'),
-  ('maryjane', 'Mary Jane',    'mary@example.com',   '$2b$10$JHLIOrxmGLzFm12.YtLBuemSroF3g2LN9NcAswnZhWxqoIacH64s.', '0851234569', 'customer');
+  ('admin', 'System Admin', 'admin@barber.com', '$2b$10$JHLIOrxmGLzFm12.YtLBuemSroF3g2LN9NcAswnZhWxqoIacH64s.', '0851234567', 'admin');
 
 INSERT INTO barbers (name, specialty, experience_years, bio, rating, available) VALUES
   ('John Smith',    'Classic Cuts',    8,  'Specialist in traditional and modern haircuts with 8 years of experience.',  4.8, 1),
@@ -115,9 +112,7 @@ INSERT INTO services (name, description, price, duration) VALUES
   ('Buzz Cut',          'Quick clipper cut',                               18.00, 15),
   ('Deluxe Package',    'Haircut, beard trim, and hot towel treatment',    55.00, 60);
 
-INSERT INTO appointments (user_id, barber_id, service_id, appointment_date, appointment_time, status, notes) VALUES
-  (2, 1, 1, '2026-04-20', '10:00:00', 'confirmed', 'First time customer'),
-  (3, 2, 3, '2026-04-20', '14:30:00', 'pending',   'Requested specific beard style');
+-- No sample appointments (sample customer users removed)
 
 -- ============================================================
 -- VERIFICATION QUERIES

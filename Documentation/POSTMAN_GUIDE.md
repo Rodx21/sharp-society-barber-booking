@@ -33,11 +33,7 @@
 
 ## Test Accounts
 
-| Username  | Password    | Role     |
-|-----------|-------------|----------|
-| admin     | $barber@dbs | admin    |
-| testadmin | admin123    | admin    |
-| fady.1    | customer123 | customer |
+Use the admin credentials configured during database setup. Customer accounts can be created via the `/api/auth/register` endpoint.
 
 ## Server Configuration
 
