@@ -4,6 +4,16 @@ A full-stack barber appointment booking web application built with React and Nod
 
 ---
 
+## Screenshots
+
+| | |
+|---|---|
+| ![Login](Documentation/Login.png) | ![Register](Documentation/Register%20User.png) |
+| ![Services](Documentation/Services%20works%20100%25.png) | ![Barbers](Documentation/Get%20Barbers.png) |
+| ![User Dashboard](Documentation/Test%201_User%20Display.png) | ![Appointments](Documentation/Get%20My%20Appointments.png) |
+
+---
+
 ## Tech Stack
 
 **Frontend**
