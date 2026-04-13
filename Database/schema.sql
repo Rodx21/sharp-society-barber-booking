@@ -141,5 +141,5 @@ JOIN services s ON a.service_id = s.id;
 
 -- Test foreign-key CASCADE: deleting a user should remove their appointments
 -- (Uncomment to verify — do NOT run on production data)
--- DELETE FROM users WHERE username = 'johndoe';
+-- DELETE FROM users WHERE username = 'example_user';
 -- SELECT * FROM appointments;
