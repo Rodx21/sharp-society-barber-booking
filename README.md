@@ -2,8 +2,6 @@
 
 > Full-stack appointment booking platform for barbershops. Customers browse barbers and services, book appointments, and manage their schedule. Admins control availability and appointment status through a dedicated panel.
 
-**Live demo:** *(coming soon — Vercel + Railway)*
-
 -----
 
 ## Tech Stack
